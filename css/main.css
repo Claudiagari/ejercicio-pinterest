@@ -98,6 +98,9 @@ ul .list-2 {
 }
 /* definiendo detalles del header*/
 header {
+  width: 1200px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-top: 0px;
   position: fixed;
   margin-bottom: 10px;
@@ -106,10 +109,15 @@ header {
 /*poniedno imagenes para mostrar*/
 img {
   display: inline-block;
-  width:400px ;
-  margin: 5px;
+  width:350px ;
+  margin: 20px;
 }
 #photo7, #photo8, #photo9{
     padding-top:180px; 
+}
+main {
+  width: 1200px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
   
