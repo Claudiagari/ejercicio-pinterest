@@ -1,44 +1,67 @@
-body{
+/*Definiendo letra*/
+body {
   font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0;
 }
+/*tamaño del header*/
+header ul {
+  width: 1300px;
+}
+/*quitando estilo a la lista*/
 ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    line-height: 80px;
-    /*outline: 1px solid black;*/
-    }
-    li{
-      /*outline: 1px solid black;*/
-      padding: 0px;
-      display: inline-block;
-    }
-    a{
-      /*outline: 1px solid black;*/
-      display: block;
-      height: 50px;
-      width: 80px;
-    }
-    span{
-      /*outline: 1px solid black;*/
-      display: block;
-      height: 50px;
-      width: 80px;
-      text-align:center;
-    }
-    div{
-      width: 1000px;
-      height: 50px;
-      background: #BDC3C7;
-      text-align: right;
-      border-radius: 15px;
-      top: 10px;
-      position: relative;
-      }
-.icon-brand{
+list-style: none;
+padding: 0px;
+margin: 0px;
+line-height: 50px;
+}
+li {
+padding: 0px;
+display: inline-block;
+}
+/*Quitando estilo al anchor*/
+a {
+display: inline-block;
+text-decoration: none;
+margin: 20px;
+}
+/*definiendo y centrando iconos*/
+span {
+width: 80px;
+text-align:center;
+}
+/*modelando la barra buscadora*/
+.buscador {
+width:900px;
+height: 45px;
+background: #EFEFEF;
+text-align:right;
+border-radius: 10px;
+margin-top:5px;
+display: inline-block;
+}
+.icon-search {
+display: inline-block;
+width:20px;   
+} 
+/*Haciendo el inpit para el buscador del header*/
+input {
+display:inline-block; 
+width: 50%;
+background-color: transparent;
+border: none;
+font-size: 18px;
+padding-right: 180px;
+}
+.icon-close {
+display:inline-block;
+}
+.icon-chevron-down {
+display:inline-block;  
+}
+.icon-brand {
   font-size: 28px;
 }
-.icon-user{
+.icon-user {
   color:#BDC3C7;
   font-size: 28px;
 }
@@ -46,48 +69,19 @@ ul {
   color:#BDC3C7;
   font-size: 28px;
 }
-.icon-commenting{
+.icon-commenting {
   color:#BDC3C7;
   font-size: 28px;
 }
-div span{
-  display: inline;
-  position: relative;
-  font-size: 20px;
-  bottom: 10px;
-}
-.icon-search{
-  right:380px;
-}
-.icon-close{
-  right: 50px;
-}
-div strong{
-  position: relative;
-  right: 40px;
-  bottom: 13px;
-}
-input{
-  width: 50%;
-  border: none;
-  line-height: 20px;
-  font-size: 18px;
-  background-color: transparent;
-  position: relative;
-  left: 7px;
-  display: inline-block;
-}
-.icon-chevron-down{
-  right: 20px;
-}
-hr{
+/*linea separadora*/
+hr {
   margin: 0;
 }
-.list{
+.list {
   margin-left: 70px;
 }
+/*segunda lista del header*/
 ul .list-2 {
-  /*outline: 1px solid black;*/
   display: inline-block;
   padding: 20px;
   padding-top: 15px;
@@ -102,7 +96,20 @@ ul .list-2 {
   line-height: 20px;
   font-weight: bold;
 }
+/* definiendo detalles del header*/
 header {
+  margin-top: 0px;
   position: fixed;
   margin-bottom: 10px;
+  background: #fff
 }
+/*poniedno imagenes para mostrar*/
+img {
+  display: inline-block;
+  width:400px ;
+  margin: 5px;
+}
+#photo7, #photo8, #photo9{
+    padding-top:180px; 
+}
+  
